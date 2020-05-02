@@ -7,4 +7,4 @@ const sqlitedb = new SqLite3Database(':memory:');
 export {
   mongodb,
   sqlitedb
-}
+};

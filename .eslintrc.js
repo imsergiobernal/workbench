@@ -13,5 +13,8 @@ module.exports = {
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
     ],
-    rules: { }
+    rules: {
+        'semi': ['error'],
+        'sort-keys': ["error", "asc", {"caseSensitive": true, "natural": false, "minKeys": 2}]
+    }
 };
