@@ -41,6 +41,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
     "dinero.js": "^1.8.1",
     "dotenv": "^8.2.0",
@@ -54,6 +55,7 @@
     "rimraf": "^3.0.2",
     "rxjs": "^6.5.5",
     "shortid": "^2.2.15",
+    "typed-rest-client": "^1.7.3",
     "typeorm": "^0.2.24",
     "typescript-dotnet-core": "^1.0.7-preview",
     "uuid": "^7.0.3"
