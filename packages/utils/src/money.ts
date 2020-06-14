@@ -42,5 +42,5 @@ export default class Money implements Dinero.Dinero {
   toUnit = this.#money.toUnit;
   toRoundedUnit = this.#money.toRoundedUnit;
   toObject = this.#money.toObject;
-  toJson = this.#money.toJson;
+  toJSON = this.#money.toJSON;
 }
