@@ -21,8 +21,7 @@
     "url": "git+https://github.com/imsergiobernal/base.git"
   },
   "scripts": {
-    "build": "npm run clean && npm run transpile",
-    "clean": "rimraf -rf ./dist",
+    "build": "npm run transpile",
     "transpile": "tsc -p tsconfig.build.json",
     "prepublishOnly": "npm run build",
     "test": "echo \"Error: run tests from root\" && exit 1"
