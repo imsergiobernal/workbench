@@ -1,0 +1,44 @@
+{
+  "name": "moduleskit",
+  "publisher": "Sergio Bernal Guillot <sergioguillot@gmail.com>",
+  "version": "0.0.0",
+  "description": "My personal modules kit ready for development",
+  "keywords": [
+    "modules",
+    "packages",
+    "kit",
+    "set"
+  ],
+  "author": "Sergio Bernal Guillot <sergioguillot@gmail.com>",
+  "homepage": "https://github.com/imsergiobernal/base#readme",
+  "license": "ISC",
+  "directories": {
+    "lib": "./dist",
+    "bin": "./dist"
+  },
+  
+  "files": [
+    "dist/async",
+    "dist/lodash"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imsergiobernal/base.git"
+  },
+  "scripts": {
+    "build": "npm run clean && npm run transpile",
+    "clean": "rimraf -rf ./dist",
+    "transpile": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/imsergiobernal/base/issues"
+  },
+  "dependencies": {
+    "@types/async": "^3.2.3",
+    "@types/lodash-es": "^4.17.3",
+    "async": "^3.2.0",
+    "lodash-es": "^4.17.15"
+  }
+}

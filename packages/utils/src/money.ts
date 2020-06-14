@@ -1,4 +1,4 @@
-import Dinero from 'dinero.js';
+import Dinero = require('dinero.js');
 
 interface MoneyOptions {
   amount?: number;
@@ -6,7 +6,7 @@ interface MoneyOptions {
   precision?: number;
 }
 
-export class Money implements Dinero.Dinero {
+export default class Money implements Dinero.Dinero {
   readonly #money: Dinero.Dinero;
 
   constructor(opts: MoneyOptions) {
@@ -42,5 +42,5 @@ export class Money implements Dinero.Dinero {
   toUnit = this.#money.toUnit;
   toRoundedUnit = this.#money.toRoundedUnit;
   toObject = this.#money.toObject;
-  toJson = this.#money.toJson;
+  toJSON = this.#money.toJSON;
 }
