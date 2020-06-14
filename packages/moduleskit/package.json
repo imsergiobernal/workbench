@@ -1,7 +1,7 @@
 {
   "name": "moduleskit",
   "publisher": "Sergio Bernal Guillot <sergioguillot@gmail.com>",
-  "version": "0.2.0-alpha.0",
+  "version": "0.2.0",
   "description": "My personal modules kit ready for development",
   "keywords": [
     "modules",
