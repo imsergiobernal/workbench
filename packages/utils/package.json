@@ -1,6 +1,6 @@
 {
   "name": "utils",
-  "version": "0.0.0",
+  "version": "0.1.0-alpha.0",
   "private": true,
   "description": "A utils package ready for quick prototyping",
   "keywords": [
@@ -64,7 +64,7 @@
     "jsonwebtoken": "^8.5.1",
     "mnemonist": "^0.36.0",
     "module-alias": "^2.2.2",
-    "moduleskit": "^0.0.0",
+    "moduleskit": "^0.1.0-alpha.0",
     "mongodb": "^3.5.6",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",

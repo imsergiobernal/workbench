@@ -1,7 +1,7 @@
 {
   "name": "moduleskit",
   "publisher": "Sergio Bernal Guillot <sergioguillot@gmail.com>",
-  "version": "0.0.0",
+  "version": "0.1.0-alpha.0",
   "description": "My personal modules kit ready for development",
   "keywords": [
     "modules",
@@ -16,7 +16,6 @@
     "lib": "./dist",
     "bin": "./dist"
   },
-  
   "files": [
     "dist/async",
     "dist/lodash"
