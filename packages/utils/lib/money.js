@@ -47,7 +47,7 @@ class Money {
         this.toUnit = __classPrivateFieldGet(this, _money).toUnit;
         this.toRoundedUnit = __classPrivateFieldGet(this, _money).toRoundedUnit;
         this.toObject = __classPrivateFieldGet(this, _money).toObject;
-        this.toJSON = __classPrivateFieldGet(this, _money).toJSON;
+        this.toJson = __classPrivateFieldGet(this, _money).toJson;
         __classPrivateFieldSet(this, _money, Dinero(opts));
     }
 }
