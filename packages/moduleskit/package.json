@@ -12,13 +12,9 @@
   "author": "Sergio Bernal Guillot <sergioguillot@gmail.com>",
   "homepage": "https://github.com/imsergiobernal/base#readme",
   "license": "ISC",
-  "directories": {
-    "lib": "./dist",
-    "bin": "./dist"
-  },
   "files": [
-    "dist/async",
-    "dist/lodash"
+    "async",
+    "lodash"
   ],
   "repository": {
     "type": "git",
