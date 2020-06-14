@@ -1,7 +1,7 @@
 {
   "name": "base",
   "private": true,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Base ready for quick prototyping",
   "keywords": [
     "base",
@@ -35,6 +35,6 @@
     "url": "https://github.com/imsergiobernal/base/issues"
   },
   "dependencies": {
-    "moduleskit": "^0.2.0"
+    "moduleskit": "^0.2.1"
   }
 }
