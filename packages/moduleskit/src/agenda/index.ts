@@ -1,1 +1,3 @@
-export * as agenda from 'agenda';
+import Agenda from 'agenda';
+
+export { Agenda };

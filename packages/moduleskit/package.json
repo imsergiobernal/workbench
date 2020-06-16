@@ -49,5 +49,6 @@
     "rxjs": "^6.5.5",
     "sequelize": "^5.21.13",
     "socket.io": "^2.3.0"
-  }
+  },
+  "gitHead": "546532dee0f397fb4cd5ec2d38a06db132bc06dd"
 }
