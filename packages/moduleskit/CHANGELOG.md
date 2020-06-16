@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/imsergiobernal/base/compare/moduleskit@0.3.0...moduleskit@0.3.1) (2020-06-16)
+
+
+### Bug Fixes
+
+* agenda export fix ([784e471](https://github.com/imsergiobernal/base/commit/784e471f6c78733a1684c36b44bd278019c0756d))
+
+
+
+
+
 # [0.3.0](https://github.com/imsergiobernal/base/compare/moduleskit@0.2.2...moduleskit@0.3.0) (2020-06-16)
 
 
