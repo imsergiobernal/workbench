@@ -1,7 +1,7 @@
 {
   "name": "base",
   "private": true,
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Base ready for quick prototyping",
   "keywords": [
     "base",
@@ -36,6 +36,6 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "moduleskit": "^0.2.2"
+    "moduleskit": "^0.3.0"
   }
 }
