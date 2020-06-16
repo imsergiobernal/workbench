@@ -13,8 +13,13 @@
   "homepage": "https://github.com/imsergiobernal/base#readme",
   "license": "ISC",
   "files": [
+    "agenda",
     "async",
-    "lodash"
+    "lodash",
+    "mongoose",
+    "rxjs",
+    "sequelize",
+    "socket.io"
   ],
   "repository": {
     "type": "git",
@@ -30,9 +35,19 @@
     "url": "https://github.com/imsergiobernal/base/issues"
   },
   "dependencies": {
+    "@types/agenda": "^2.0.8",
     "@types/async": "^3.2.3",
     "@types/lodash-es": "^4.17.3",
+    "@types/mongoose": "^5.7.24",
+    "@types/socket.io": "^2.1.8",
+    "agenda": "^3.1.0",
     "async": "^3.2.0",
-    "lodash-es": "^4.17.15"
+    "lodash-es": "^4.17.15",
+    "mongoose": "^5.9.19",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "rxjs": "^6.5.5",
+    "sequelize": "^5.21.13",
+    "socket.io": "^2.3.0"
   }
 }
